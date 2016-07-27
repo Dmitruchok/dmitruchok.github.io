@@ -1,0 +1,81 @@
+body {
+    background-color: #f0f4f4;
+    font-family: "Myriad Pro", Myriad, Arial;
+}
+
+h3 {
+    margin: 1px 1px;
+    font-size: 16px;
+}
+
+.name {
+    color: #0a0a0a;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.name p {
+    padding: 3px;
+    font-size: 14px;
+}
+
+.name img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 1px;
+    border: 1px solid #000000;
+}
+
+.name h1 {
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.main-block {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.front {
+    margin: 4px 1px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #0a0a0a;
+    list-style-type: none;
+}
+
+.tell {
+    margin: 11px 1px;
+    list-style-type: none;
+}
+
+.tell li {
+    display: block;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+
+
+.fid li {
+  font-size: 12px;
+  list-style-type: none;
+}
+
+.arg {
+    margin: 20px -7px;
+    width: 1000px;
+    font-size: 13px;
+}
+
+.profile {
+    margin: 21px 1px;
+    border-bottom: 1px solid #0a0a0a;
+}
+
+.profile a {
+    display: block;
+    margin: 21px 35px;
+    color: #03a9f4;
+    font-size: 12px;
+}
