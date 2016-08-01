@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Open Sans', sans-serif;
 }
 
 /*HEDER*/
-
-
-
 
 .main-block {
     margin: 0 auto;
@@ -98,6 +96,30 @@ body {
 
 /*FOOTER*/
 
+.nav-foot {
+    width: 966px;
+    background: #d3d3d3;
+    margin-top: 60px;
+}
+
 .nav-foot li {
     display: inline-block;
+    margin: 13px 35px 20px;
 }
+
+.nav-foot p {
+    float: right;
+    color: #000000;
+    margin-top: 17px;
+    margin-right: 17px;
+}
+
+.nav-foot a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ .nav-foot a:hover {
+    text-decoration: underline;
+ }
+  
