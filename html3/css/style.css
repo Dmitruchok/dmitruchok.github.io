@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 12px;
+    font-size: 13.3px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,10 +28,11 @@ body {
 }
 
 .nav-menu a {
+    font-size: 14.67px;
     border-left: 1px solid rgb(90, 89, 89);
     border-right: 1px solid rgb(90, 89, 89);
     display: block;
-    padding: 16px 45px 18px 35px;
+    padding: 15px 40px;
     text-decoration: none;
     color: white;
 }
@@ -104,7 +105,7 @@ body {
 
 .nav-foot li {
     display: inline-block;
-    margin: 15px 40px;
+    padding: 15px 40px;
 }
 
 .nav-foot p {
@@ -118,8 +119,8 @@ body {
     text-decoration: none;
     color: #000000;
 }
-
  .nav-foot a:hover {
     text-decoration: underline;
  }
-  
+
+    
