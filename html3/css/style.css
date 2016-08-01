@@ -21,7 +21,7 @@ body {
 }
 
 .nav-menu {
-    background: #444343;
+    background: rgba(68, 67, 67, 0.88);
     margin-top: 40px;
 }
 
@@ -37,8 +37,7 @@ body {
 }
 
 .nav-menu a:hover {
-    margin-right: -1px;
-    margin-left: -1px;
+    background-color: rgb(68, 67, 67);
     border-left: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
 }
@@ -55,13 +54,17 @@ body {
 }
 
 .side-menu {
+    border: 1px solid #d3d3d3;
     width: 240px;
     float: left;
 }
 .side-menu li {
-    margin-top: -1px;
-    border: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
     list-style-type: none;
+}
+
+.side-menu li:first-child {
+    border: none;
 }
 
 .side-menu a {
