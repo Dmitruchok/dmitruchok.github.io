@@ -4,23 +4,22 @@
 }
 
 body {
-    font-size: 13.3px;
-    font-family: 'Open Sans', sans-serif;
+    font: 13.3px 'Open Sans', sans-serif;
 }
 
 /*HEDER*/
 
 .main-block {
+    width: 966px;
     margin: 0 auto;
     padding: 50px 50px 0 50px;
-    width: 966px;
+    border-right: 1px solid #d3d3d3;
     border-left: 1px solid #d3d3d3;
-    border-right: 1px solid #d3d3d3
 }
 
 .nav-menu {
-    background: rgba(68, 67, 67, 0.88);
     margin-top: 40px;
+    background: rgba(68, 67, 67, .88);
 }
 
 .nav-menu li {
@@ -28,19 +27,19 @@ body {
 }
 
 .nav-menu a {
-    font-size: 14.67px;
-    border-left: 1px solid rgb(90, 89, 89);
-    border-right: 1px solid rgb(90, 89, 89);
     display: block;
     padding: 15px 40px;
+    border-right: 1px solid rgb(90, 89, 89);
+    border-left: 1px solid rgb(90, 89, 89);
+    color: #fff;
+    font-size: 14.67px;
     text-decoration: none;
-    color: white;
 }
 
 .nav-menu a:hover {
-    background-color: rgb(68, 67, 67);
-    border-left: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    background-color: rgb(68, 67, 67);
 }
 
 /*SECTION*/
@@ -48,41 +47,42 @@ body {
     margin-top: 40px;
 }
 
-.clearfix:after {
-    content: '';
+.clearfix::after {
+    display: block;
     clear: both;
-    display: block;  
+    content: '';
 }
 
 .side-menu {
-    border: 1px solid #d3d3d3;
     width: 240px;
     float: left;
+    border: 1px solid #d3d3d3;
 }
+
 .side-menu li {
     border-top: 1px solid #d3d3d3;
     list-style-type: none;
 }
 
 .side-menu li:first-child {
-    border: none;
+    border: 0;
 }
 
 .side-menu a {
-    padding: 15px 30px 15px 10px;
     display: block;
-    text-decoration: none;
+    padding: 15px 30px 15px 10px;
     color: #656363;
+    text-decoration: none;
 }
 
 .side-menu a:hover {
-    background-color: rgba(236, 236, 236, 0.78);
-    padding-left:35px;
+    padding-left: 35px;
+    background-color: rgba(236, 236, 236, .78);
 }
 
 .right-section {
-    float: right;
     width: 678px;
+    float: right;
 }
 
 .right-section p {
@@ -99,8 +99,8 @@ body {
 
 .nav-foot {
     width: 966px;
-    background: #d3d3d3;
     margin-top: 60px;
+    background: #d3d3d3;
 }
 
 .nav-foot li {
@@ -109,18 +109,17 @@ body {
 }
 
 .nav-foot p {
-    float: right;
-    color: #000000;
     margin-top: 17px;
     margin-right: 17px;
+    float: right;
+    color: #000;
 }
 
 .nav-foot a {
+    color: #000;
     text-decoration: none;
-    color: #000000;
 }
- .nav-foot a:hover {
+
+.nav-foot a:hover {
     text-decoration: underline;
  }
-
-    
