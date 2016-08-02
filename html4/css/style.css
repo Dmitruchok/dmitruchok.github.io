@@ -12,13 +12,11 @@ body {
 .main-block {
     margin: 0 auto;
     width: 1000px;
-    height: 990px;
     background-color: #fff;
 }
 
 .contact {
     width: 400px;
-    height: 200px;
     float: right;
 }
 
@@ -30,7 +28,7 @@ body {
 
 /*HEDER*/
 .tell {
-    line-height: 12px;
+    line-height: 18px;
     color: #30b4c8;;
     margin: 15px 10px 0 235px;
 }
@@ -43,21 +41,20 @@ body {
  }
 
 .nav {
+    margin-top: 55px;
     list-style-type: none;
 }
 .nav li {
+    padding-left: 20px;
     float: left;
-    margin: 35px 10px;
 }
 
 .nav a {
-    margin-top: 20px;
     display: block;
     background-position: center top;
     color: #30b4c8;
     background-repeat: no-repeat;
     width: 40px;
-    height: 44px;
     padding-top: 45px;
 }
 
@@ -92,6 +89,8 @@ background-image: url(../img/m_flag.png);
 
 /*SECTION*/
 
+.banner {
+}
 
 /*FOOTER*/
 
