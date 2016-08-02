@@ -98,7 +98,6 @@ body {
 /*FOOTER*/
 
 .nav-foot {
-    width: 966px;
     margin-top: 60px;
     background: #d3d3d3;
 }
@@ -109,7 +108,7 @@ body {
 }
 
 .nav-foot p {
-    margin-top: 17px;
+    margin-top: 14px;
     margin-right: 17px;
     float: right;
     color: #000;
