@@ -28,20 +28,21 @@ body {
 
 /*HEDER*/
 .tell {
-    line-height: 18px;
+    line-height: 20px;
     color: #30b4c8;;
     margin: 15px 10px 0 235px;
 }
 
 .logo {
     width: 600px;
+
 }
  .logo img {
     margin: 35px 10px 0 20px;
  }
 
 .nav {
-    margin-top: 55px;
+    margin-top: 47px;
     list-style-type: none;
 }
 .nav li {
