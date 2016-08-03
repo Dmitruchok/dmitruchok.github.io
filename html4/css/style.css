@@ -109,6 +109,7 @@ background-image: url(../img/m_flag.png);
 }
 
 .menu {
+    margin-left: 15px;
     display: block;
     list-style-type: none;
 }
@@ -121,6 +122,7 @@ background-image: url(../img/m_flag.png);
 }
 
 .menu li {
+        padding: 0px 25px;
         position: relative;
         float: left;
 }
