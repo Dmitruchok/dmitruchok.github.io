@@ -97,6 +97,20 @@ background-image: url(../img/m_flag.png);
     background-color: black;
 }
 
+.nav-menu li a:after {
+ color: #ffffff;
+ content: ' ▾';
+}
+ 
+.nav-menu li a:hover:after {
+ color: #444;
+ content: ' ▾';
+}
+ 
+.nav-menu li a:only-child:after {
+ content: '';
+}
+
 .menu {
     display: block;
     list-style-type: none;
@@ -124,8 +138,6 @@ background-image: url(../img/m_flag.png);
 .submenu {
     display: none;
     position: absolute;
-    width: 120px;
-    top: 37px;
     background-color: black;
 }
 
@@ -135,7 +147,6 @@ background-image: url(../img/m_flag.png);
 
 .submenu a {
     display: block;
-    padding: 10px;
     color: white;
     background-color: black;;
     text-decoration: none;
@@ -145,7 +156,7 @@ background-image: url(../img/m_flag.png);
     text-decoration: none;
 }
 
-ul.menu li:hover ul.submenu {
+.menu li:hover .submenu {
     display: block;
 }
 
