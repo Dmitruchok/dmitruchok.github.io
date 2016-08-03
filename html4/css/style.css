@@ -90,9 +90,6 @@ background-image: url(../img/m_flag.png);
 
 /*SECTION*/
 
-.banner {
-}
-
 .nav-menu {
     background-color: black;
 }
@@ -145,7 +142,7 @@ background-image: url(../img/m_flag.png);
     display: block;
 }
 
-.submenu a {
+.submenu  a {
     display: block;
     color: white;
     background-color: black;;
