@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(../img/background.png);
+    background: url('../img/background.png');
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -159,10 +159,10 @@ body {
     display: block;
 }
 /*NEWS*/
+
 .section {
     line-height: 27px;
     color: #303030;
-    background: #edeef0;
     font-size: 13px;
 }
 
@@ -175,12 +175,13 @@ body {
 
 .center-block {
     background: white;
-    width: 582px;
+    width: 573px;
     float: left;
 
 }
 
 .right-block {
+    background: #edeef0;
     border-left: 1px solid #575757;
     text-align: center;
     width: 208px;
